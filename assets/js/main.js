@@ -403,6 +403,12 @@
 						$window.on('load', function() {
 							$main._show(location.hash.substr(1), true);
 						});
+						$('.special').click(function() {
+		 $('#emailsubmit').attr('action',
+										'mailto:james.lee4789@gmail.com?subject=' +
+										$('#name').val() + '&body=' + $('#email').val());
+		 $('#message').submit();
+ });
 
 	});
 
