@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url(fontawesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -695,7 +695,7 @@
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
 	}
@@ -1591,4 +1591,13 @@
 
 		body.is-loading #footer {
 			opacity: 0;
+		}
+
+		.contact-items {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.contact-items li {
+			flex: 0 0 50%;
 		}
