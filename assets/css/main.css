@@ -1601,3 +1601,11 @@
 		.contact-items li {
 			flex: 0 0 50%;
 		}
+
+		@media (min-width: 320px) and (max-width: 480px) {
+
+		  .contact-items li {
+				flex: 0 0 100%;
+			}
+
+		}
